@@ -10,3 +10,19 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+button {
+    padding: 20px;
+}
+
+form {
+    width: 600px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-start;*/
+    /*text-align: start;*/
+}
+

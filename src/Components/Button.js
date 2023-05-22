@@ -1,13 +1,12 @@
 import React from 'react';
 
-function Button(props) {
+function Button({typeButton, handleClick, buttonName}) {
     return (
         <button
-        type={props.typeName}
-        onClick={props.handleClick}>
-            {props.buttonValue}
+        type={typeButton}
+        onClick={handleClick}>
+            {buttonName}
         </button>
-
     );
 }
 
